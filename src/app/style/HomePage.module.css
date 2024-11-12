@@ -1,0 +1,27 @@
+.container {
+    min-height: 100vh;
+    background-color: #f9fafb;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .wrapper {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      padding: 2rem;
+    }
+  }
+  
